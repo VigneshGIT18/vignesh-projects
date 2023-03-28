@@ -1,0 +1,67 @@
+<head>
+    <script type="text/javascript" src="validateform.js"></script>
+    <style>
+    ul {list-style-type:none;}
+    form{
+      background-color: #DCDCDC;
+    }
+    </style>
+    </head>
+     
+    <body>
+    <form action="#" name="StudenSignupForm" onsubmit="return(validateHTMlform());">
+     
+    <div cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+    cellspacing="2">
+     
+    <ul>
+    <li>
+    <center><font size=4><b>Student Details Form</b></font></center>
+    </li>
+    </ul>
+     
+    <ul>
+    <li>Name</li>
+    <li><input type=text name=textnames id="textname" size="30"></li>
+    </ul>
+     
+      <ul>
+        <li>
+            year passed</li>
+          <li><input type=text name=year passed id="year passed" size="30"></li>
+          </ul>
+    
+</ul>
+ 
+ 
+<ul>
+<li>department</li>
+<li><select name="department">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></li>
+</ul>
+ 
+  
+</ul>
+<ul>
+<li>student email</li>
+<li><input type="text" name="email_id" id="emailid" size="30"></li>
+</ul>
+ 
+ 
+<ul>
+<li>Mobile Number</li>
+<li><input type="text" name="mobilenumber" id="mobile_no" size="30"></li>
+</ul>
+<ul>
+<li><input type="reset"></li>
+<li colspan="2"><input type="submit" value="POST" /></li>
+</ul>
+</div>
+</form>
+</body>
+</html>
